@@ -1,4 +1,4 @@
-# ci4-model-registry
+# codeigniter4-cyclic-dependency-resolution
 
 A `ModelRegistry` library for CodeIgniter 4 that solves cyclic model dependency issues encountered when migrating from CI3 to CI4.
 
