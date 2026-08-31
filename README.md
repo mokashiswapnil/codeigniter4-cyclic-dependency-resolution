@@ -1,8 +1,11 @@
-# codeigniter4-cyclic-dependency-resolution
+# CodeIgniter 4 Model Registry (CI4 Circular Dependency Fix)
 
-A `ModelRegistry` library for CodeIgniter 4 that solves cyclic model dependency issues encountered when migrating from CI3 to CI4.
+> **Resolve circular model dependency crashes, infinite constructor recursion, and cross-loading issues when migrating from CodeIgniter 3 to CodeIgniter 4.**
+
+A lightweight, zero-dependency `ModelRegistry` library for **CodeIgniter 4 (CI4)** providing lazy singleton model instantiation. It replaces CI3's `$this->load->model()` cross-loading in constructors without causing fatal recursion errors or tight coupling.
 
 Drop in `app/Libraries/ModelRegistry.php` and replace constructor model loading with `ModelRegistry::getModel('ModelName')->methodName()`.
+
 
 ---
 
