@@ -1,0 +1,126 @@
+﻿# Antigravity Context & Indexing Ignore Rules
+
+# Dependencies
+node_modules/
+**/node_modules/
+vendor/
+**/vendor/
+
+# Version control
+.git/
+**/.git/
+
+# Build artifacts & outputs
+dist/
+**/dist/
+build/
+**/build/
+out/
+**/out/
+$out/
+build_artifacts/
+**/build_artifacts/
+.next/
+**/.next/
+.nuxt/
+**/.nuxt/
+.svelte-kit/
+**/.svelte-kit/
+*.tsbuildinfo
+
+# Python cache & virtual environments
+__pycache__/
+**/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+**/.venv/
+venv/
+**/venv/
+env/
+**/env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large binary / compiled files
+*.apk
+*.aab
+*.ipa
+*.exe
+*.dll
+*.so
+*.dylib
+*.bin
+*.iso
+*.dmg
+
+# Media & large assets
+*.pdf
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.webp
+*.ico
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.mp3
+*.wav
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.rar
+*.7z
+
+# Logs, databases and temp files
+*.log
+logs/
+**/logs/
+*.sqlite
+*.sqlite3
+*.db
+*.db-shm
+*.db-wal
+*.tmp
+*.temp
+
+# Test coverage & reports
+coverage/
+**/coverage/
+test-results/
+playwright-report/
+.blob-report/
+
+# Large lockfiles
+package-lock.json
+**/package-lock.json
+yarn.lock
+**/yarn.lock
+pnpm-lock.yaml
+**/pnpm-lock.yaml
+
+# IDE & OS
+.idea/
+**/.idea/
+.vscode/
+**/.vscode/
+.DS_Store
+Thumbs.db
+
+# Sensitive credential files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.jks
+*.keystore
+service-account*.json
+credentials.json
